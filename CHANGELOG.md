@@ -1,5 +1,12 @@
 # Changelog
 
+## [12.0.0-beta-3](https://github.com/mark-wiemer/mocha/compare/v12.0.0-beta-2...v12.0.0-beta-3) (2026-02-06)
+
+
+### 🩹 Fixes
+
+* fix release-please workflow ([b4ece1c](https://github.com/mark-wiemer/mocha/commit/b4ece1cb2177fb4ef9f6ae4cf783598eba0e7a83))
+
 ## [12.0.0-beta-2](https://github.com/mark-wiemer/mocha/compare/v12.0.0-beta-1...v12.0.0-beta-2) (2026-02-06)
 
 
