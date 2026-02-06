@@ -1,5 +1,12 @@
 # Changelog
 
+## [12.0.0-beta-2](https://github.com/mark-wiemer/mocha/compare/v12.0.0-beta-1...v12.0.0-beta-2) (2026-02-06)
+
+
+### 🧹 Chores
+
+* update misc files ([e761308](https://github.com/mark-wiemer/mocha/commit/e7613086841d7353c63ccfcab7e66b6ec9af81e9))
+
 ## [12.0.0-beta-1](https://github.com/mark-wiemer/mocha/compare/v12.0.0-beta-7...v12.0.0-beta-1) (2026-02-06)
 
 ### ⚠ BREAKING CHANGES
