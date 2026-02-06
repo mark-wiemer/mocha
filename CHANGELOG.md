@@ -1,5 +1,16 @@
 # Changelog
 
+## [12.0.0-beta-4](https://github.com/mark-wiemer/mocha/compare/v12.0.0-beta-3...v12.0.0-beta-4) (2026-02-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* change repo URL for fork
+
+### 🩹 Fixes
+
+* change repo URL for fork ([21693bd](https://github.com/mark-wiemer/mocha/commit/21693bde54ca32ebe348d3450febfd94bdd5e5a5))
+
 ## [12.0.0-beta-3](https://github.com/mark-wiemer/mocha/compare/v12.0.0-beta-2...v12.0.0-beta-3) (2026-02-06)
 
 
