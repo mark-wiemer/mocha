@@ -1,4 +1,4 @@
-name: Close stale 'waiting for author' issues
+name: Close stale 'waiting for author' issues and PRs
 
 on:
   schedule:
@@ -7,6 +7,7 @@ on:
 
 permissions:
   issues: write
+  pull-requests: write
 
 jobs:
   stale:
@@ -15,6 +16,7 @@ jobs:
       - uses: actions/stale@v9
         with:
           stale-issue-label: 'status: stale'
+          stale-pr-label: 'status: stale'
           only-labels: 'status: waiting for author'
           stale-issue-message: >
             This issue has been waiting for a response from the author for 2 weeks with no activity.
@@ -23,9 +25,14 @@ jobs:
           close-issue-message: >
             This issue has been automatically closed after waiting 4 weeks with no response from the author.
             If you have more information to provide, please feel free to reopen this issue or open a new one.
+          stale-pr-message: >
+            This pull request has been waiting for a response from the author for 2 weeks with no activity.
+            If there is no further activity in the next 2 weeks, this pull request will be automatically closed.
+            Maintainers: to keep this pull request open indefinitely, remove the "status: waiting for author" label.
+          close-pr-message: >
+            This pull request has been automatically closed after waiting 4 weeks with no response from the author.
+            If you have more information to provide, please feel free to reopen this pull request or open a new one.
           days-before-stale: 14
           days-before-close: 14
-          days-before-pr-stale: -1
-          days-before-pr-close: -1
           remove-stale-when-updated: true
           operations-per-run: 100
