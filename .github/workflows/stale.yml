@@ -1,4 +1,4 @@
-name: Close stale 'waiting for author' issues and PRs
+name: Manage stale items
 
 on:
   schedule:
