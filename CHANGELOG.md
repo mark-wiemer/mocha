@@ -1,5 +1,12 @@
 # Changelog
 
+## [12.0.0-beta-9.4.issue-5899.1](https://github.com/mark-wiemer/mocha/compare/v12.0.0-beta-9.4.issue-5899.0...v12.0.0-beta-9.4.issue-5899.1) (2026-05-02)
+
+
+### 🧹 Chores
+
+* change baseline to issue-5899.0 ([bbd5ff6](https://github.com/mark-wiemer/mocha/commit/bbd5ff65effcb74719728d57dcf0d2681465fa86))
+
 ## [12.0.0-beta-9.4](https://github.com/mark-wiemer/mocha/compare/v12.0.0-beta-9.3...v12.0.0-beta-9.4) (2026-05-02)
 
 
