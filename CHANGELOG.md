@@ -1,5 +1,12 @@
 # Changelog
 
+## [12.0.0-beta-9.4.issue-5899.2](https://github.com/mark-wiemer/mocha/compare/v12.0.0-beta-9.4.issue-5899.1...v12.0.0-beta-9.4.issue-5899.2) (2026-05-02)
+
+
+### 🌟 Features
+
+* convert `lib/cli/cli.mjs` to ESM ([#12](https://github.com/mark-wiemer/mocha/issues/12)) ([8613c63](https://github.com/mark-wiemer/mocha/commit/8613c635f9ead1ce59827e5f0053514f793a7512))
+
 ## [12.0.0-beta-9.4.issue-5899.1](https://github.com/mark-wiemer/mocha/compare/v12.0.0-beta-9.4.issue-5899.0...v12.0.0-beta-9.4.issue-5899.1) (2026-05-02)
 
 
